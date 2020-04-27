@@ -217,7 +217,7 @@ public class SecondActivity extends AppCompatActivity {
                 items.addAll(list.getItems());
                 recyclerViewAdapter.notifyDataSetChanged();
 
-//                RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(SecondActivity.this,list.getItems() );
+//              RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(SecondActivity.this,list.getItems() );
 
                 Toast.makeText(SecondActivity.this, "success", Toast.LENGTH_LONG).show();
                 spinKitView.setVisibility(View.GONE);
